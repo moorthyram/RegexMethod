@@ -1,0 +1,15 @@
+C:\Moorthy\ASP.NET\RegexProgram\bin\Debug\net6.0\RegexProgram_Day19.exe
+C:\Moorthy\ASP.NET\RegexProgram\bin\Debug\net6.0\RegexProgram_Day19.deps.json
+C:\Moorthy\ASP.NET\RegexProgram\bin\Debug\net6.0\RegexProgram_Day19.runtimeconfig.json
+C:\Moorthy\ASP.NET\RegexProgram\bin\Debug\net6.0\RegexProgram_Day19.dll
+C:\Moorthy\ASP.NET\RegexProgram\bin\Debug\net6.0\RegexProgram_Day19.pdb
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.csproj.AssemblyReference.cache
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.AssemblyInfoInputs.cache
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.AssemblyInfo.cs
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.csproj.CoreCompileInputs.cache
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.dll
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\refint\RegexProgram_Day19.dll
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.pdb
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\RegexProgram_Day19.genruntimeconfig.cache
+C:\Moorthy\ASP.NET\RegexProgram\obj\Debug\net6.0\ref\RegexProgram_Day19.dll
