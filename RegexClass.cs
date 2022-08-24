@@ -11,11 +11,12 @@ namespace RegexProgram_Day19
 
         public static void RegexPattern()
         {
-            String FirstName, lastName, email, phoneNumber;
+            String FirstName, lastName, email, phoneNumber, urlVal;
 
             Regex nameregex = new Regex("^([A-Z]{1}[a-z]{2}([a-z]+)?)$");
             Regex emailregex = new Regex("^([0-9a-zA-Z])+([.+-][0-9a-zA-Z]+)?@([0-9a-zA-Z])+([.][a-zA-Z]{2,4})([.][a-zA-Z]{2})?$");
             Regex mobileregex = new Regex("^(0|91)?[6-9][0-9]{9}$");
+            Regex urlregex = new Regex("^(www.)([a-z]+)+(.+[a-z]){2,4}$");
 
             Console.WriteLine("Enter the First Name");
             var name = Console.ReadLine();
@@ -74,6 +75,21 @@ namespace RegexProgram_Day19
             {
                 Console.WriteLine("It is Invalid");
             }
+
+            Console.WriteLine("Enter the url");
+            var url = Console.ReadLine();
+
+            Match matchurl = urlregex.Match(url);
+            if (matchurl.Success)
+            {
+                urlVal = url;
+                Console.WriteLine("It is valid url");
+            }
+            else
+            {
+                Console.WriteLine("It is Invalid , first enter www url");
+            }
+
 
         }
     }
