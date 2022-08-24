@@ -11,10 +11,11 @@ namespace RegexProgram_Day19
 
         public static void RegexPattern()
         {
-            String FirstName, lastName, email;
+            String FirstName, lastName, email, phoneNumber;
 
             Regex nameregex = new Regex("^([A-Z]{1}[a-z]{2}([a-z]+)?)$");
             Regex emailregex = new Regex("^([0-9a-zA-Z])+([.+-][0-9a-zA-Z]+)?@([0-9a-zA-Z])+([.][a-zA-Z]{2,4})([.][a-zA-Z]{2})?$");
+            Regex mobileregex = new Regex("^(0|91)?[6-9][0-9]{9}$");
 
             Console.WriteLine("Enter the First Name");
             var name = Console.ReadLine();
@@ -54,6 +55,20 @@ namespace RegexProgram_Day19
             {
                 email = mail;
                 Console.WriteLine("It is valid Mail");
+            }
+            else
+            {
+                Console.WriteLine("It is Invalid");
+            }
+
+            Console.WriteLine("Enter the Mobile Number");
+            var number = Console.ReadLine();
+
+            Match matchmobile = mobileregex.Match(number);
+            if (matchmobile.Success)
+            {
+                phoneNumber = number;
+                Console.WriteLine("It is valid Mobile Number");
             }
             else
             {
